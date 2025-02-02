@@ -7,9 +7,9 @@ from datetime import datetime
 from .schemas import QueryDate
 
 # Load the model and scaler
-model = load_model("/Users/siriyalachandu/Desktop/forecast/models/lstm_model.h5")
+model = load_model("models/lstm_model.h5")
 scaler = MinMaxScaler(feature_range=(0, 1))
-data = pd.read_csv("/Users/siriyalachandu/Desktop/forecast/data/company_data.csv")
+data = pd.read_csv("data/company_data.csv")
 data['date'] = pd.to_datetime(data['date'])
 data.set_index('date', inplace=True)
 target = data['sales'].values.reshape(-1, 1)
