@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+screenshots/
+.bsp/
+.metals/
+.scala-build/
+.vscode/
+Projects/3w-assignment-task-1/
+Projects/Car-Rental-System/
+Projects/Chandusiriyala-Portfolio-Website/src/components/Calender/
+Projects/CseConnects.zip
+Projects/Drowziness-Detection-ML-Project/
+Projects/GitHub/
+Projects/SiriyalaChandu-Resume-Print.pdf
+Projects/Smart Assistant/
+Projects/Tour-Project/
+Projects/coderkv/
+Projects/communication-calender/
+Projects/compilendgrow/
+Projects/mern-vote/
+Projects/mongosh-2.2.6-darwin-arm64.zip
+Projects/mongosh-2.2.6-darwin-arm64/
+Projects/python_stuff/
+Projects/pythonproject/
+Projects/schbang/
+Projects/shortifyai/
+Projects/talkwave/
+Projects/taskify/
+Projects/todos-assignment/
+Projects/todos-list-assignment/
+Ecommerce-customization/
